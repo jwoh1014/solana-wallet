@@ -34,7 +34,7 @@ export default function MinimalScreen() {
     <>
       <NextSeo
         title="Criptic Minimal"
-        description="Criptic - React Next Web3 NFT Crypto Dashboard Template"
+        description="Solai - Unleash the power of locked data"
       />
       <div className="">
         <PriceFeedSlider

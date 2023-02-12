@@ -24,7 +24,7 @@ const SearchPage: NextPageWithLayout<
       <>
         <NextSeo
           title="Explore NTF"
-          description="Criptic - React Next Web3 NFT Crypto Dashboard Template"
+          description="Solai - Unleash the power of locked data"
         />
         <RetroSearch />
       </>
@@ -36,7 +36,7 @@ const SearchPage: NextPageWithLayout<
     <>
       <NextSeo
         title="Explore NTF"
-        description="Criptic - React Next Web3 NFT Crypto Dashboard Template"
+        description="Solai - Unleash the power of locked data"
       />
 
       <Search />

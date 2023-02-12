@@ -63,7 +63,7 @@ const NotificationPage: NextPageWithLayout = () => {
     <>
       <NextSeo
         title="Notifications"
-        description="Criptic - React Next Web3 NFT Crypto Dashboard Template"
+        description="Solai - Unleash the power of locked data"
       />
       <div className="mx-auto w-[660px] max-w-full">
         <div className="mb-7 flex items-center justify-between gap-6">

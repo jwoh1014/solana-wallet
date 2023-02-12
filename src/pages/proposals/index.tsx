@@ -85,7 +85,7 @@ const ProposalsPage: NextPageWithLayout = () => {
     <>
       <NextSeo
         title="Proposal"
-        description="Criptic - React Next Web3 NFT Crypto Dashboard Template"
+        description="Solai - Unleash the power of locked Data"
       />
       <section className="mx-auto w-full max-w-[1160px] text-sm ">
         <header

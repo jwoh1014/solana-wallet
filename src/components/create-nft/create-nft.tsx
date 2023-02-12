@@ -50,15 +50,15 @@ export default function CreateNFT() {
     <>
       <NextSeo
         title="Create NFT"
-        description="Criptic - React Next Web3 NFT Crypto Dashboard Template"
+        description="Solai - Unleash the power of locked data"
       />
       <div className="mx-auto w-full sm:pt-0 lg:px-8 xl:px-10 2xl:px-0">
         <div className="mb-6 grid grid-cols-3 gap-12 sm:mb-10">
           <div className="col-span-3 flex items-center justify-between lg:col-span-2">
             <h2 className="text-lg font-medium uppercase tracking-wider text-gray-900 dark:text-white  sm:text-2xl">
-              Create New Item
+              Train your model
             </h2>
-            <Preview />
+            {/* <Preview /> */}
           </div>
         </div>
         <div className="mb-8 grid grid-cols-1 gap-12 lg:grid-cols-3">
@@ -102,25 +102,25 @@ export default function CreateNFT() {
 
           <div className="hidden flex-col lg:flex">
             {/* NFT preview */}
-            <InputLabel title="Preview" />
+            <InputLabel title="Result" />
             <div className="relative flex flex-grow flex-col overflow-hidden rounded-lg bg-white shadow-card transition-all duration-200 hover:shadow-large dark:bg-light-dark">
               <div className="flex items-center p-4 text-sm font-medium text-gray-600 transition hover:text-gray-900 dark:text-gray-400">
-                <Avatar
+                {/* <Avatar
                   size="sm"
                   image={AuthorImage}
                   alt="Cameronwilliamson"
                   className="border-white bg-gray-300 ltr:mr-3 rtl:ml-3 dark:bg-gray-400"
                 />
-                @Cameronwilliamson
+                @Cameronwilliamson */}
               </div>
               <div className="relative block w-full">
-                <Image
+                {/* <Image
                   src={NFT1}
                   placeholder="blur"
                   width={700}
                   height={700}
                   alt="Pulses of Imagination #214"
-                />
+                /> */}
               </div>
               <div className="p-5">
                 <div className="text-sm font-medium text-black dark:text-white">
@@ -135,7 +135,7 @@ export default function CreateNFT() {
         </div>
 
         {/* Price */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <InputLabel title="Price" important />
           <Input
             min={0}
@@ -143,34 +143,34 @@ export default function CreateNFT() {
             placeholder="Enter your price"
             inputClassName="spin-button-hidden"
           />
-        </div>
+        </div> */}
 
         {/* Name */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <InputLabel title="Name" important />
           <Input type="text" placeholder="Item name" />
-        </div>
+        </div> */}
 
         {/* External link */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <InputLabel
             title="External link"
             subTitle="We will include a link to this URL on this item's detail page, so that users can click to learn more about it."
           />
           <Input type="text" placeholder="https://yoursite.io/item/123" />
-        </div>
+        </div> */}
 
         {/* Description */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <InputLabel
             title="Description"
             subTitle="The description will be included on the item's detail page underneath its image."
           />
           <Textarea placeholder="Provide a detailed description of your item" />
-        </div>
+        </div> */}
 
         {/* Unlockable content */}
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <ToggleBar
             title="Unlockable Content"
             subTitle="Include unlockable content that can only be revealed by the owner of the item."
@@ -182,10 +182,10 @@ export default function CreateNFT() {
               <Textarea placeholder="Enter content (access key, code to redeem, link to a file, etc.)" />
             )}
           </ToggleBar>
-        </div>
+        </div> */}
 
         {/* Explicit content */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <ToggleBar
             title="Explicit &amp; Sensitive Content"
             subTitle="Set this item as explicit and sensitive content"
@@ -193,19 +193,19 @@ export default function CreateNFT() {
             checked={explicit}
             onChange={() => setExplicit(!explicit)}
           />
-        </div>
+        </div> */}
 
         {/* Supply */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <InputLabel
             title="Supply"
             subTitle="The number of items that can be minted."
           />
           <Input type="number" placeholder="1" disabled />
-        </div>
+        </div> */}
 
         {/* Blockchain */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <InputLabel title="Blockchain" />
           <div className="relative">
             <Listbox value={blockchain} onChange={setBlockChain}>
@@ -244,7 +244,7 @@ export default function CreateNFT() {
               </Transition>
             </Listbox>
           </div>
-        </div>
+        </div> */}
 
         <Button shape="rounded">CREATE</Button>
       </div>
