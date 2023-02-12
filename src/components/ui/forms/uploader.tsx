@@ -7,9 +7,8 @@ function Uploader() {
   const [files, setFiles] = useState([]);
   const { getRootProps, getInputProps } = useDropzone({
     accept: {
-      'image/*': [],
     },
-    multiple: false,
+    multiple: true,
     onDrop: (acceptedFiles: any) => {
       setFiles(
         acceptedFiles.map((file: any) =>
@@ -23,14 +22,10 @@ function Uploader() {
 
   const thumbs = files.map((file: any) => (
     <div key={file.name} className="h-full w-full">
-      <img
-        src={file.preview}
+      <div
         className="mx-auto max-h-full max-w-full object-contain"
-        alt="uploaded image"
-        onLoad={() => {
-          URL.revokeObjectURL(file.preview);
-        }}
-      />
+
+      >  {file.name}</div>
     </div>
   ));
 

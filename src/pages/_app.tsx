@@ -43,16 +43,16 @@ function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
       <ThemeProvider
         attribute="class"
         enableSystem={false}
-        defaultTheme="light"
+        defaultTheme="dark"
       >
         <WalletProvider>
           {/* <div className={`${firaCode.variable} font-body`}> */}
           {getLayout(<Component {...pageProps} />)}
-          <SettingsButton />
+          {/* <SettingsButton />
           <SettingsDrawer />
    
           <ModalsContainer />
-          <DrawersContainer />
+          <DrawersContainer /> */}
           {/* </div> */}
         </WalletProvider>
       </ThemeProvider>

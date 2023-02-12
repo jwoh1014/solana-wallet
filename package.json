@@ -9,7 +9,8 @@
     "export": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "vercel-deploy": "next build && next export"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
@@ -49,6 +50,7 @@
     "react-share": "^4.4.0",
     "react-table": "^7.7.0",
     "react-use": "^17.3.2",
+    "reactstrap": "^9.1.5",
     "recharts": "2.1.12",
     "swiper": "^8.4.2",
     "tiny-invariant": "^1.2.0",
