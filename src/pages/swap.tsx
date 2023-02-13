@@ -14,7 +14,7 @@ const SwapPage: NextPageWithLayout = () => {
   return (
     <>
       <NextSeo
-        title="Farms"
+        title="Swap"
         description="Solai - Unleash the power of locked data"
       />
       <Trade>

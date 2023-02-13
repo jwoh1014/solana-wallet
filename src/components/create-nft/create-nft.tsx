@@ -49,7 +49,7 @@ export default function CreateNFT() {
   return (
     <>
       <NextSeo
-        title="Create NFT"
+        title="Train"
         description="Solai - Unleash the power of locked data"
       />
       <div className="mx-auto w-full sm:pt-0 lg:px-8 xl:px-10 2xl:px-0">
@@ -65,7 +65,7 @@ export default function CreateNFT() {
           <div className="lg:col-span-2">
             {/* File uploader */}
             <div className="mb-8">
-              <InputLabel title="Upload file" important />
+              <InputLabel title="Upload your model" important />
               <Uploader />
             </div>
 

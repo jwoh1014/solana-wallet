@@ -13,7 +13,7 @@ const CreateNFTPage: NextPageWithLayout = () => {
     return (
       <>
         <NextSeo
-          title="Create NFT"
+          title="Train your model"
           description="Solai - Unleash the power of locked data"
         />
         <CreateNFTRetro />

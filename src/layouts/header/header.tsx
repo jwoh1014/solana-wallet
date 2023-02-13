@@ -25,7 +25,7 @@ function NotificationButton() {
 function HeaderRightArea() {
   return (
     <div className="relative order-last flex shrink-0 items-center gap-4 sm:gap-6 lg:gap-8">
-      {/* <NotificationButton /> */}
+      <NotificationButton />
       <WalletConnect />
     </div>
   );
@@ -55,12 +55,12 @@ export default function Header({ className }: { className?: string }) {
             <LogoIcon />
           </div>
           <div className="mx-2 block sm:mx-4 xl:hidden">
-            {/* <Hamburger
+            <Hamburger
               isOpen={false}
               variant="transparent"
               onClick={() => openDrawer('DASHBOARD_SIDEBAR')}
               className="dark:text-white"
-            /> */}
+            />
           </div>
           {/* <SearchButton
             variant="transparent"

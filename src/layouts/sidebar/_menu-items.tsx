@@ -16,12 +16,12 @@ export const menuItems = [
     href: routes.home,
   },
   {
-    name: 'Create NFT',
+    name: 'Train',
     icon: <PlusCircle />,
     href: routes.createNft,
   },
   {
-    name: 'Farm',
+    name: 'Swap',
     icon: <FarmIcon />,
     href: routes.farms,
   },
